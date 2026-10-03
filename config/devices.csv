@@ -1,0 +1,4 @@
+name,host,port,expected_ipv4,simulated_online,simulated_ipv4
+Web-Gateway,gateway.example.net,443,192.0.2.10,true,192.0.2.10
+Database,db.example.net,5432,198.51.100.20,false,198.51.100.20
+DNS-Primary,ns1.example.net,53,203.0.113.53,true,203.0.113.99

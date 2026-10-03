@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "network-dns-monitor"
+version = "1.1.0"
+description = "Monitor device availability and DNS records with alerts and tickets"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Jorge Rivera"}]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = [
+    "network-automation",
+    "dns",
+    "monitoring",
+    "incident-response",
+]
+
+[project.scripts]
+network-dns-monitor = "network_dns_monitor.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
