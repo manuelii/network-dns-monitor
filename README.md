@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Tests](https://img.shields.io/badge/Tests-unittest-success)
+[![Python tests](https://github.com/manuelii/network-dns-monitor/actions/workflows/tests.yml/badge.svg)](https://github.com/manuelii/network-dns-monitor/actions/workflows/tests.yml)
 
 A Python network-operations project that checks device availability, validates
 expected IPv4 records, records healthy results, sends optional email alerts,
@@ -173,7 +173,7 @@ examples and testing.
 ```text
 network-dns-monitor/
 ├── config/                  Example device inventory
-├── docs/                    Architecture and portfolio notes
+├── docs/                    Architecture and design decisions
 ├── logs/                    Generated runtime evidence
 ├── src/network_dns_monitor/ Application package
 ├── tests/                   Unit tests
