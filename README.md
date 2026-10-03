@@ -3,6 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 [![Python tests](https://github.com/manuelii/network-dns-monitor/actions/workflows/tests.yml/badge.svg)](https://github.com/manuelii/network-dns-monitor/actions/workflows/tests.yml)
+![Network DNS Monitor project banner](docs/network-dns-monitor-banner.png)
 
 A Python network-operations project that checks device availability, validates
 expected IPv4 records, records healthy results, sends optional email alerts,
