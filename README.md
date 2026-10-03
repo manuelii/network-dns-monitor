@@ -204,9 +204,6 @@ See [SECURITY.md](SECURITY.md) for reporting and safe-operation guidance.
 ## Additional documentation
 
 - [Architecture and design decisions](docs/architecture.md)
-- [Portfolio and interview notes](docs/portfolio-notes.md)
-- [GitHub publishing instructions](docs/github-setup.md)
-- [Contributing guidelines](CONTRIBUTING.md)
 
 ## License
 
